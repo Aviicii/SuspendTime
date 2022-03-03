@@ -1,0 +1,6 @@
+module Pods_SuspendTime {
+  umbrella header "Pods-SuspendTime-umbrella.h"
+
+  export *
+  module * { export * }
+}
