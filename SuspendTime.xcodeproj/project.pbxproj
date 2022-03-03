@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24594F5C388ECB9D2895AD8E /* libPods-SuspendTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A56FB21E815F6FB2952A7A2 /* libPods-SuspendTime.a */; };
 		7B0B9E2027CF40C500E7C67F /* FPSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0B9E1F27CF40C500E7C67F /* FPSLabel.swift */; };
 		7B0B9E2627CF468800E7C67F /* SpeedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0B9E2527CF468800E7C67F /* SpeedTest.m */; };
 		7B2CB3FC27C627E000D13D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2CB3FB27C627E000D13D0C /* AppDelegate.swift */; };
@@ -40,8 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0161BFA5E0A470D1DFA754B0 /* Pods-SuspendTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuspendTime.debug.xcconfig"; path = "Target Support Files/Pods-SuspendTime/Pods-SuspendTime.debug.xcconfig"; sourceTree = "<group>"; };
-		7A56FB21E815F6FB2952A7A2 /* libPods-SuspendTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuspendTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0B9E1F27CF40C500E7C67F /* FPSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSLabel.swift; sourceTree = "<group>"; };
 		7B0B9E2327CF468700E7C67F /* SuspendTime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuspendTime-Bridging-Header.h"; sourceTree = "<group>"; };
 		7B0B9E2427CF468800E7C67F /* SpeedTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeedTest.h; sourceTree = "<group>"; };
@@ -60,7 +57,6 @@
 		7B2CB41E27C627E400D13D0C /* SuspendTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspendTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7BA0305827C8A74800F4A4FE /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		7BD0D11327CCC54500F10DCF /* 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.mp4; sourceTree = "<group>"; };
-		DAFFD4F8ABB8A33D5CF3CB7F /* Pods-SuspendTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuspendTime.release.xcconfig"; path = "Target Support Files/Pods-SuspendTime/Pods-SuspendTime.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24594F5C388ECB9D2895AD8E /* libPods-SuspendTime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +87,6 @@
 		107574CB7D0C61DA5FF508E1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7A56FB21E815F6FB2952A7A2 /* libPods-SuspendTime.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,7 +98,6 @@
 				7B2CB41127C627E400D13D0C /* SuspendTimeTests */,
 				7B2CB41B27C627E400D13D0C /* SuspendTimeUITests */,
 				7B2CB3F927C627E000D13D0C /* Products */,
-				7E07DEC7785E258CB86BCFE5 /* Pods */,
 				107574CB7D0C61DA5FF508E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -155,15 +148,6 @@
 			path = SuspendTimeUITests;
 			sourceTree = "<group>";
 		};
-		7E07DEC7785E258CB86BCFE5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0161BFA5E0A470D1DFA754B0 /* Pods-SuspendTime.debug.xcconfig */,
-				DAFFD4F8ABB8A33D5CF3CB7F /* Pods-SuspendTime.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,7 +155,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B2CB42227C627E400D13D0C /* Build configuration list for PBXNativeTarget "SuspendTime" */;
 			buildPhases = (
-				CD4187F08C73C7DD1FE4F6D0 /* [CP] Check Pods Manifest.lock */,
 				7B2CB3F427C627E000D13D0C /* Sources */,
 				7B2CB3F527C627E000D13D0C /* Frameworks */,
 				7B2CB3F627C627E000D13D0C /* Resources */,
@@ -292,31 +275,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		CD4187F08C73C7DD1FE4F6D0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SuspendTime-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B2CB3F427C627E000D13D0C /* Sources */ = {
@@ -501,7 +459,6 @@
 		};
 		7B2CB42327C627E400D13D0C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0161BFA5E0A470D1DFA754B0 /* Pods-SuspendTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -536,7 +493,6 @@
 		};
 		7B2CB42427C627E400D13D0C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAFFD4F8ABB8A33D5CF3CB7F /* Pods-SuspendTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
