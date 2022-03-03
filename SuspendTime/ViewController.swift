@@ -23,16 +23,12 @@ class ViewController: UIViewController {
         }
         //设置AVPlayerLayer
         playerLayer.frame = self.view.frame
-//        playerLayer.videoGravity = .resizeAspect
-//        playerLayer.isHidden = true
         self.view.layer.addSublayer(playerLayer)
         
         //设置AVPlayer
         let asset = AVURLAsset(url: videoURL)
         let playerItem:AVPlayerItem = AVPlayerItem(asset: asset)
-//        playerItem.isAudioSpatializationAllowed = false
         player = AVPlayer(playerItem: playerItem)
-//        player.actionAtItemEnd = .none
         player.rate = 0
         player.play()
         if let player = player {
@@ -60,7 +56,6 @@ class ViewController: UIViewController {
     }
     
     @objc func tt() {
-        debugPrint("123")
         //判断Pip是否在Active状态
         guard let isActive = pictureInPictureController?.isPictureInPictureActive else { return }
         if (isActive) {
@@ -69,9 +64,6 @@ class ViewController: UIViewController {
         } else {
             //启动画中画
             pictureInPictureController?.startPictureInPicture()
-//            if #available(iOS 14.2, *) {
-//                pictureInPictureController.canStartPictureInPictureAutomaticallyFromInline = false
-//            }
         }
     }
 }
@@ -92,7 +84,6 @@ extension ViewController: AVPictureInPictureControllerDelegate {
     
     func pictureInPictureControllerWillStopPictureInPicture(_ pictureInPictureController: AVPictureInPictureController) {
         timeV.stop()
-        
     }
     
 }

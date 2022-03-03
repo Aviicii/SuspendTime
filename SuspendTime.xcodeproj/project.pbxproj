@@ -14,11 +14,16 @@
 		7B2CB40327C627E000D13D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2CB40127C627E000D13D0C /* Main.storyboard */; };
 		7B2CB40527C627E400D13D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2CB40427C627E400D13D0C /* Assets.xcassets */; };
 		7B2CB40827C627E400D13D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2CB40627C627E400D13D0C /* LaunchScreen.storyboard */; };
-		7B2CB41327C627E400D13D0C /* SuspendTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2CB41227C627E400D13D0C /* SuspendTimeTests.swift */; };
-		7B2CB41D27C627E400D13D0C /* SuspendTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2CB41C27C627E400D13D0C /* SuspendTimeUITests.swift */; };
-		7B2CB41F27C627E400D13D0C /* SuspendTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2CB41E27C627E400D13D0C /* SuspendTimeUITestsLaunchTests.swift */; };
 		7BA0305927C8A74800F4A4FE /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0305827C8A74800F4A4FE /* TimeView.swift */; };
 		7BD0D11427CCC54500F10DCF /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7BD0D11327CCC54500F10DCF /* 3.mp4 */; };
+		7BFECF7827D0AD07005BFEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFECF7727D0AD07005BFEBC /* AppDelegate.m */; };
+		7BFECF7B27D0AD07005BFEBC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFECF7A27D0AD07005BFEBC /* SceneDelegate.m */; };
+		7BFECF7E27D0AD07005BFEBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFECF7D27D0AD07005BFEBC /* ViewController.m */; };
+		7BFECF8127D0AD07005BFEBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFECF7F27D0AD07005BFEBC /* Main.storyboard */; };
+		7BFECF8327D0AD09005BFEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BFECF8227D0AD09005BFEBC /* Assets.xcassets */; };
+		7BFECF8627D0AD09005BFEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFECF8427D0AD09005BFEBC /* LaunchScreen.storyboard */; };
+		7BFECF8927D0AD09005BFEBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFECF8827D0AD09005BFEBC /* main.m */; };
+		7BFECFA927D0B388005BFEBC /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7BD0D11327CCC54500F10DCF /* 3.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,12 +56,21 @@
 		7B2CB40727C627E400D13D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B2CB40927C627E400D13D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B2CB40E27C627E400D13D0C /* SuspendTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspendTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B2CB41227C627E400D13D0C /* SuspendTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspendTimeTests.swift; sourceTree = "<group>"; };
 		7B2CB41827C627E400D13D0C /* SuspendTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspendTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B2CB41C27C627E400D13D0C /* SuspendTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspendTimeUITests.swift; sourceTree = "<group>"; };
-		7B2CB41E27C627E400D13D0C /* SuspendTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspendTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7BA0305827C8A74800F4A4FE /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		7BD0D11327CCC54500F10DCF /* 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.mp4; sourceTree = "<group>"; };
+		7BFECF7427D0AD07005BFEBC /* SuppendTime-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SuppendTime-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFECF7627D0AD07005BFEBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BFECF7727D0AD07005BFEBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BFECF7927D0AD07005BFEBC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7BFECF7A27D0AD07005BFEBC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7BFECF7C27D0AD07005BFEBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7BFECF7D27D0AD07005BFEBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BFECF8027D0AD07005BFEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BFECF8227D0AD09005BFEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BFECF8527D0AD09005BFEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BFECF8727D0AD09005BFEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFECF8827D0AD09005BFEBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,24 +95,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7BFECF7127D0AD07005BFEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		107574CB7D0C61DA5FF508E1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7B2CB3EF27C627E000D13D0C = {
 			isa = PBXGroup;
 			children = (
+				7BD0D11327CCC54500F10DCF /* 3.mp4 */,
 				7B2CB3FA27C627E000D13D0C /* SuspendTime */,
-				7B2CB41127C627E400D13D0C /* SuspendTimeTests */,
-				7B2CB41B27C627E400D13D0C /* SuspendTimeUITests */,
+				7BFECF7527D0AD07005BFEBC /* SuppendTime-OC */,
 				7B2CB3F927C627E000D13D0C /* Products */,
-				107574CB7D0C61DA5FF508E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +121,7 @@
 				7B2CB3F827C627E000D13D0C /* SuspendTime.app */,
 				7B2CB40E27C627E400D13D0C /* SuspendTimeTests.xctest */,
 				7B2CB41827C627E400D13D0C /* SuspendTimeUITests.xctest */,
+				7BFECF7427D0AD07005BFEBC /* SuppendTime-OC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,7 +135,6 @@
 				7B0B9E1F27CF40C500E7C67F /* FPSLabel.swift */,
 				7B0B9E2427CF468800E7C67F /* SpeedTest.h */,
 				7B0B9E2527CF468800E7C67F /* SpeedTest.m */,
-				7BD0D11327CCC54500F10DCF /* 3.mp4 */,
 				7B2CB40127C627E000D13D0C /* Main.storyboard */,
 				7B2CB40427C627E400D13D0C /* Assets.xcassets */,
 				7B2CB40627C627E400D13D0C /* LaunchScreen.storyboard */,
@@ -131,21 +144,22 @@
 			path = SuspendTime;
 			sourceTree = "<group>";
 		};
-		7B2CB41127C627E400D13D0C /* SuspendTimeTests */ = {
+		7BFECF7527D0AD07005BFEBC /* SuppendTime-OC */ = {
 			isa = PBXGroup;
 			children = (
-				7B2CB41227C627E400D13D0C /* SuspendTimeTests.swift */,
+				7BFECF7627D0AD07005BFEBC /* AppDelegate.h */,
+				7BFECF7727D0AD07005BFEBC /* AppDelegate.m */,
+				7BFECF7927D0AD07005BFEBC /* SceneDelegate.h */,
+				7BFECF7A27D0AD07005BFEBC /* SceneDelegate.m */,
+				7BFECF7C27D0AD07005BFEBC /* ViewController.h */,
+				7BFECF7D27D0AD07005BFEBC /* ViewController.m */,
+				7BFECF7F27D0AD07005BFEBC /* Main.storyboard */,
+				7BFECF8227D0AD09005BFEBC /* Assets.xcassets */,
+				7BFECF8427D0AD09005BFEBC /* LaunchScreen.storyboard */,
+				7BFECF8727D0AD09005BFEBC /* Info.plist */,
+				7BFECF8827D0AD09005BFEBC /* main.m */,
 			);
-			path = SuspendTimeTests;
-			sourceTree = "<group>";
-		};
-		7B2CB41B27C627E400D13D0C /* SuspendTimeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7B2CB41C27C627E400D13D0C /* SuspendTimeUITests.swift */,
-				7B2CB41E27C627E400D13D0C /* SuspendTimeUITestsLaunchTests.swift */,
-			);
-			path = SuspendTimeUITests;
+			path = "SuppendTime-OC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +218,23 @@
 			productReference = 7B2CB41827C627E400D13D0C /* SuspendTimeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		7BFECF7327D0AD07005BFEBC /* SuppendTime-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFECFA027D0AD09005BFEBC /* Build configuration list for PBXNativeTarget "SuppendTime-OC" */;
+			buildPhases = (
+				7BFECF7027D0AD07005BFEBC /* Sources */,
+				7BFECF7127D0AD07005BFEBC /* Frameworks */,
+				7BFECF7227D0AD07005BFEBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SuppendTime-OC";
+			productName = "SuppendTime-OC";
+			productReference = 7BFECF7427D0AD07005BFEBC /* SuppendTime-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,6 +257,9 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 7B2CB3F727C627E000D13D0C;
 					};
+					7BFECF7327D0AD07005BFEBC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 7B2CB3F327C627E000D13D0C /* Build configuration list for PBXProject "SuspendTime" */;
@@ -244,6 +278,7 @@
 				7B2CB3F727C627E000D13D0C /* SuspendTime */,
 				7B2CB40D27C627E400D13D0C /* SuspendTimeTests */,
 				7B2CB41727C627E400D13D0C /* SuspendTimeUITests */,
+				7BFECF7327D0AD07005BFEBC /* SuppendTime-OC */,
 			);
 		};
 /* End PBXProject section */
@@ -274,6 +309,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7BFECF7227D0AD07005BFEBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFECFA927D0B388005BFEBC /* 3.mp4 in Resources */,
+				7BFECF8627D0AD09005BFEBC /* LaunchScreen.storyboard in Resources */,
+				7BFECF8327D0AD09005BFEBC /* Assets.xcassets in Resources */,
+				7BFECF8127D0AD07005BFEBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -293,7 +339,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B2CB41327C627E400D13D0C /* SuspendTimeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,8 +346,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B2CB41F27C627E400D13D0C /* SuspendTimeUITestsLaunchTests.swift in Sources */,
-				7B2CB41D27C627E400D13D0C /* SuspendTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFECF7027D0AD07005BFEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFECF7E27D0AD07005BFEBC /* ViewController.m in Sources */,
+				7BFECF7827D0AD07005BFEBC /* AppDelegate.m in Sources */,
+				7BFECF8927D0AD09005BFEBC /* main.m in Sources */,
+				7BFECF7B27D0AD07005BFEBC /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +388,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				7B2CB40727C627E400D13D0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7BFECF7F27D0AD07005BFEBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BFECF8027D0AD07005BFEBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BFECF8427D0AD09005BFEBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BFECF8527D0AD09005BFEBC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -600,6 +670,62 @@
 			};
 			name = Release;
 		};
+		7BFECFA127D0AD09005BFEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95WCBKFLC5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SuppendTime-OC/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suspend.SuppendTime-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BFECFA227D0AD09005BFEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95WCBKFLC5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SuppendTime-OC/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suspend.SuppendTime-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -635,6 +761,15 @@
 			buildConfigurations = (
 				7B2CB42927C627E400D13D0C /* Debug */,
 				7B2CB42A27C627E400D13D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFECFA027D0AD09005BFEBC /* Build configuration list for PBXNativeTarget "SuppendTime-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFECFA127D0AD09005BFEBC /* Debug */,
+				7BFECFA227D0AD09005BFEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
